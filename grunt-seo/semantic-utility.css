@@ -1,0 +1,101 @@
+/* Matching classes assigned so we don't use headings for visual styling
+concept from the w3's css - http://www.w3.org/2008/site/css/minimum */
+
+   h1,
+   .h1-style{ }
+
+   h2,
+   .h2-style{ }
+
+   h3,
+   .h3-style{ }
+
+   h4,
+   .h4-style{ }
+
+   h5,
+   .h5-style{ }
+
+   h6,
+   .h6-style{ }
+
+
+   /* i is semantic HTML5 for things which shouldn't be read with 'emphasis' by a screenreader (like a latin species name) */
+
+   i,
+   em,
+   .italic-style{font-style: italic;}
+
+   /* b is semantic HTML5 for things which shouldn't be read in a 'strong' voice by a screenreader */
+
+   b,
+   .bold-style{font-weight:bolder;}
+
+   strong{font-weight:bold;}
+
+   abbr[title]{border-bottom:thin dotted rgba(122, 122, 122, .5);}
+
+   /* no (dotted) bottom border for abbr in headlines */
+   h1>abbr,
+   h2>abbr,
+   h3>abbr,
+   h4>abbr,
+   h5>abbr,
+   h6>abbr{border-bottom:none;}
+
+   /* courtesy of twitter bootstrap */
+
+   abbr.initialism{text-transform: uppercase; font-size:90%;}
+
+   /* The order of link psudeo class properties matters... */
+   a,
+   a:link{ } /* a:link is needed to overcome default browser styling in Chrome */
+
+   a:visited{ }
+
+   a:active{ }
+
+   a:hover{ }
+
+   a:active{ }/* a:focus is often the same as a:active and if so combine rules */
+
+   a:focus{ }
+
+/* Use for location references or 'sub-headlines' that should be indexed as part of headline */
+   .sub-title{
+        display:block;
+        letter-spacing:normal;
+        word-spacing:normal;
+        font-size:18px;}
+
+   .center{text-align: center;}
+
+   .centered{margin-left:auto;margin-right: auto;}
+
+   .ninety{font-size:90%;}
+
+   .one-ten{font-size:110%;}
+
+   /* Utility spacing classes, concept from the w3's css - http://www.w3.org/2008/site/css/minimum */
+
+    /* 'p' is for padding */
+   .p1{padding:1em;}
+
+       .p1t{padding-top:1em;}
+
+       .p1r{padding-right:1em;}
+
+       .p1b{padding-bottom:1em;}
+
+       .p1l{padding-left:1em;}
+
+   /* 'm' is for margin */
+   .m1{margin:1em;}
+
+       .m1t{margin-top:1em;}
+
+       .m1r{margin-right:1em;}
+
+       .m1b{margin-bottom:1em;}
+
+       .m1s{margin-left:1em;}

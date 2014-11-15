@@ -28,13 +28,24 @@ Lists of cities and states for local campaigns (remove your state from the list 
 ### Scrapy Configs
 If you can't beat 'em, join em.
 
-Doing everything yourself, from scratch, is for the birds. Sometimes you just need to scrape existing content from the web. 
+Doing everything yourself, from scratch, is for the birds. Sometimes you just need to scrape existing content from the web.
 
 Maybe it's for competitive surveillance, maybe it's for sentiment analysis, maybe it's to download the content and edit it just enough to make it your own.
 
 Do what you gotta do.
 
 ### Resource Lists
-Many others are doing Mother Effing Awesome stuff and there will be lists, oh yes, there will be lists. 
+Many others are doing Mother Effing Awesome stuff and there will be lists, oh yes, there will be lists.
+
+### Grunt-SEO
+
+You know what's mothereffing awesome?
+
+Automation. Letting these awesome computers we have do all the hard work.
+
+Sure it takes some configuration but that's exactly what Grunt is for, running tasks (i.e. automating tasks).
+
+This folder is out-of-date. I was still learning (and struggling with) Grunt so there's a hodgepodge of stuff I copied from other sources, but the spirit (and some useful snippets) is there...see the README in that directory for more info.
+
 
 

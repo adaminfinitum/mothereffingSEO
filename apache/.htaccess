@@ -2,34 +2,37 @@
 # # FOR DEVELOPMENT SITES AND SUBDOMAINS ONLY                          #
 # ######################################################################
 
-# -----------------------------------------------------------------------------------------
-# Disable URL indexing by crawlers (FOR DEVELOPMENT/STAGE)
-# -----------------------------------------------------------------------------------------
+  # -----------------------------------------------------------------------------------------
+  # Disable URL indexing by crawlers (FOR DEVELOPMENT/STAGE)
+  # -----------------------------------------------------------------------------------------
 
-# Avoid search engines (Google, Yahoo, etc) indexing website's content
-# http://yoast.com/prevent-site-being-indexed/
-# http://code.google.com/web/controlcrawlindex/docs/robots_meta_tag.html
-# Matt Cutt (from Google Webmaster Central) on this topic:
-# http://www.youtube.com/watch?v=KBdEwpRQRD0
+  # Avoid search engines (Google, Yahoo, etc) indexing website's content
+  # http://yoast.com/prevent-site-being-indexed/
+  # http://code.google.com/web/controlcrawlindex/docs/robots_meta_tag.html
+  # Matt Cutt (from Google Webmaster Central) on this topic:
+  # http://www.youtube.com/watch?v=KBdEwpRQRD0
 
-# IMPORTANT: serving this headers is recommended only for
-# development/stage websites (or for live websites that don't
-# want to be indexed). This will avoid the website
-# being indexed in SERPs (search engines result pages).
-# This is a better approach than using robots.txt
-# to disallow the SE robots crawling your website,
-# because disallowing the robots doesn't exactly
-# mean that your website won't get indexed (read links above).
+  # IMPORTANT: serving this headers is recommended only for
+  # development/stage websites (or for live websites that don't
+  # want to be indexed). This will avoid the website
+  # being indexed in SERPs (search engines result pages).
+  # This is a better approach than using robots.txt
+  # to disallow the SE robots crawling your website,
+  # because disallowing the robots doesn't exactly
+  # mean that your website won't get indexed (read links above).
 
-# <IfModule mod_headers.c>
-#   Header set X-Robots-Tag "noindex, nofollow, noarchive"
-#   <FilesMatch "\.(doc|pdf|png|jpe?g|gif)$">
-#     Header set X-Robots-Tag "noindex, noarchive, nosnippet"
-#   </FilesMatch>
-# </IfModule>
+  # <IfModule mod_headers.c>
+  #   Header set X-Robots-Tag "noindex, nofollow, noarchive"
+  #   <FilesMatch "\.(doc|pdf|png|jpe?g|gif)$">
+  #     Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+  #   </FilesMatch>
+  # </IfModule>
 
 #######################################################################
 #######################################################################
+
+## FROM H5BP.COM BUT CUSTOMIZED FOR WITH SEO IN MIND
+
 
 # Apache Server Configs v2.8.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
