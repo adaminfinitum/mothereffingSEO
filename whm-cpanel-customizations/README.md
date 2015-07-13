@@ -5,9 +5,13 @@ I use WHM for my VPS and I needed to customize the HTTP `Headers` for domains th
 Specifically, to avoid duplicate content (with my primary domain) I wanted to tell Google not to index the parked domains.
 
 Here's what it took:
+
 1. Modify the DNS of the domains to be parked to point to my custom nameserver.
+
 2. Park the domains (in cPanel or in WHM).
+
 3. Add the code to customize the vhost headers.
+
 4. Run the command-line command over SSH to incorporate the customized code.
 
 How to modify DNS records for nameservers, how to use your own private nameservers in WHM/cPanel, and how to park domains is [adequately documented](http://support.hostgator.com/articles/cpanel/what-is-a-parked-domain-how-do-i-create-and-delete-one).
