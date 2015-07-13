@@ -1,0 +1,16 @@
+mountain time zone states
+
+Arizona
+Colorado
+Idaho
+Kansas
+Montana
+Nebraska
+Nevada
+New Mexico
+North Dakota
+Oregon
+South Dakota
+Texas
+Utah
+Wyoming
