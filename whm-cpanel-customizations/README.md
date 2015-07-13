@@ -46,4 +46,4 @@ To users the site is fully functional and complete but because Google is prevent
 
 That will uncomment `parked.conf` so that the code takes effect.
 
-Background can be found (here)[https://documentation.cpanel.net/display/EA/Modify+Virtualhost+Containers+With+Include+Files], (here)[https://forums.cpanel.net/threads/custom-virtualhost-configurations.110013/] and (here)[http://www.zyxware.com/articles/2714/how-to-make-custom-changes-to-virtualhost-settings-in-httpd-conf-on-a-whmcpanel-vps-without-losing-the-changes]...the last link is the clearest but is not 'official documentation.'
+Background can be found [here](https://documentation.cpanel.net/display/EA/Modify+Virtualhost+Containers+With+Include+Files), [here](https://forums.cpanel.net/threads/custom-virtualhost-configurations.110013/) and [here](http://www.zyxware.com/articles/2714/how-to-make-custom-changes-to-virtualhost-settings-in-httpd-conf-on-a-whmcpanel-vps-without-losing-the-changes)...the last link is the clearest but is not 'official documentation.'
