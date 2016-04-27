@@ -6,16 +6,16 @@ module.exports = function(grunt) {
 
 	// custom script to name files according to source
 	var cssSrc = [
-	    'cformnkp.js',
-	    'AC_RunActiveContent.js',
-	    'js/moo_12.js',
-	    'js/sl_slider.js',
-	    'js/swfobject.js',
-	    'scripts/*.js',
-	    'pro_dropdown_2/*js'
+	    'cformnkp.css',
+	    'AC_RunActiveContent.css',
+	    'js/moo_12.css',
+	    'js/sl_slider.css',
+	    'js/swfobject.css',
+	    'scripts/*.css',
+	    'pro_dropdown_2/*.css'
 	];
 
-	// returns full list of .js files that matches your *.js
+	// returns full list of .css files that matches your *.css
 	var complete_csssrc = grunt.file.expand(cssSrc);
 
 	var final_cssname = '';
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
 	    'js/sl_slider.js',
 	    'js/swfobject.js',
 	    'scripts/*.js',
-	    'pro_dropdown_2/*js'
+	    'pro_dropdown_2/*.js'
 	];
 
 	// returns full list of .js files that matches your *.js
